@@ -20,14 +20,15 @@ This project is a full-stack book recommendation system powered by open-source L
 | UI Framework       | Gradio                                      |
 | Core Libraries     | Python, LangChain, Transformers, Pandas     |
 
-## 📁 Project Structure
+### 📁 Project Structure
+```text
 📦 book-recommender/
-├── data-exploration.ipynb # Text cleaning & preprocessing
-├── vector-search.ipynb # Embedding + Vector DB setup
-├── text-classification.ipynb # Zero-shot classification
-├── sentiment-analysis.ipynb # Emotion scoring
-├── gradio-dashboard.py # Frontend app with Gradio
-├── tagged_description.txt # Raw book descriptions
-├── books_with_emotions.csv # Final dataset
-├── requirements.txt # Python dependencies
-└── .env # Environment variables
+├── data-exploration.ipynb         # Text cleaning & preprocessing
+├── vector-search.ipynb            # Embedding + Vector DB setup
+├── text-classification.ipynb      # Zero-shot classification
+├── sentiment-analysis.ipynb       # Emotion scoring
+├── gradio-dashboard.py            # Frontend app with Gradio
+├── tagged_description.txt         # Raw book descriptions
+├── books_with_emotions.csv        # Final dataset
+├── requirements.txt               # Python dependencies
+└── .env                           # Environment variables
